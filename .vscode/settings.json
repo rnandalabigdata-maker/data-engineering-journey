@@ -1,4 +1,8 @@
 {
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "workbench.editor.openSideBySideDirection": "down",
+    "sqltools.results.reuseTabs": "connection",
     "sqltools.connections": [
         {
             "ssh": "Disabled",
