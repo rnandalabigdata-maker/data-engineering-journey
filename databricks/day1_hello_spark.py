@@ -105,3 +105,18 @@ df.write.mode("overwrite").saveAsTable("workspace.default.cities")
 
 # MAGIC %sql
 # MAGIC DESCRIBE HISTORY workspace.default.cities
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC OPTIMIZE workspace.default.cities
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC DESCRIBE DETAIL workspace.default.cities
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC DESCRIBE HISTORY workspace.default.cities
