@@ -3,6 +3,9 @@
     "files.autoSaveDelay": 1000,
     "workbench.editor.openSideBySideDirection": "down",
     "sqltools.results.reuseTabs": "connection",
+    "terminal.integrated.env.windows": {
+        "PATH": "${env:USERPROFILE}\\tools\\bin;${env:USERPROFILE}\\tools\\pgsql\\bin;${env:USERPROFILE}\\tools\\databricks;${env:PATH}"
+    },
     "sqltools.connections": [
         {
             "ssh": "Disabled",
